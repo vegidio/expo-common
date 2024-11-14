@@ -13,13 +13,15 @@
             "backgroundColor": "#ffffff"
         },
         "ios": {
-            "supportsTablet": true
+            "supportsTablet": true,
+            "bundleIdentifier": "io.vinicius.expocommon"
         },
         "android": {
             "adaptiveIcon": {
                 "foregroundImage": "./assets/images/adaptive-icon.png",
                 "backgroundColor": "#ffffff"
-            }
+            },
+            "package": "io.vinicius.expocommon"
         },
         "web": {
             "bundler": "metro",
